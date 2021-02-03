@@ -1,0 +1,129 @@
+body {
+    
+    font-family: 'Lora', serif;   
+  }
+
+ img{
+   
+    width:1050px;
+    height: 170px;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 20px;
+    position: absolute;
+    z-index: -9;
+}
+.img2{
+
+    width:1050px;
+    height: 170px;
+    
+    margin-left: 10px;
+    margin-right: 20px;
+    /* position: absolute; */
+        
+}
+.inner-div{
+    width: 65%;
+    height:600px;
+    margin-top: 130px;
+    margin-left: 175px;
+    position: absolute;
+    background-color: white;
+}
+.div1{
+    margin-left: 180px;
+    margin-top: 30px;
+    width: 160px;
+    height: 500px;
+    border:2px;
+    border-color: skyblue;
+    border-style:groove;
+    border-radius: 5px;
+    position: absolute;
+    
+}
+
+.div2{
+    margin-left: 360px;
+    margin-top: 30px;
+    width: 160px;
+    height: 500px;
+    border:2px;
+    border-color: skyblue;
+    border-style:groove;
+    border-radius: 5px;
+    position: absolute;
+    
+  
+}
+
+.div3{
+
+    width:50%;
+    height: 250px;
+    margin-top: 80px;
+    color: rgb(100, 97, 97);
+}
+
+.div4{
+
+    width:50%;
+    height: 250px;
+    margin-top: 80px;
+
+}
+
+.div5{
+
+    margin-top: 60px;
+    background-color: rgba(132, 177, 228, 0.423);
+    height: 150px;
+    text-align: center;
+}
+
+
+
+.text{
+    color: black; 
+    font-size: 10px; 
+    text-align: left; 
+    font-family: 'Hind Madurai', sans-serif;
+    font-weight: bold;
+										
+}
+
+.btn-success{
+   background-color:  rgb(97, 170, 45);
+   border: none;
+   margin-top: 5px;
+}
+.btn-primary{
+    background-color :rgb(58, 161, 202);
+    border: none;
+ }
+ .btn3{
+    background-color :rgba(112, 207, 80, 0.667);
+    color: :rgba(112, 207, 80, 0.667);
+    border: none;
+    border-radius: 0px;
+    padding-top:0px;
+    padding-bottom:3px;
+ }
+ .btn4{
+    background-color :rgba(68, 171, 199, 0.572);
+    color:rgba(68, 171, 199, 0.572)
+    border: none;
+    border-radius: 0px;
+    padding-top:0px;
+    padding-bottom:3px;
+ }
+
+.last{
+    height:120px;
+}
+@media only screen and (min-width: 1198px){
+    .div-size{
+        padding: 43.5px 0px!important;
+    }
+}
